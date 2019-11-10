@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane dividerPositions="0.30267558528428096" maxHeight="400.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="source.Controller">
+  <items>
+    <AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="165.0" SplitPane.resizableWithParent="false">
+         <children>
+            <Button layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#bmiButton" prefHeight="26.0" prefWidth="147.0" text="BMI" />
+            <Button layoutX="14.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#addIngredientButton" prefHeight="26.0" prefWidth="147.0" text="Nowy składnik" />
+            <Button layoutX="16.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#dietPlanButton" prefHeight="26.0" prefWidth="147.0" text="Plan Żywieniowy" />
+            <Label layoutX="72.0" layoutY="14.0" text="Opcje" />
+         </children></AnchorPane>
+    <AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="0.0">
+         <children>
+            <Text layoutX="14.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autorzy programu:" />
+            <Text layoutX="14.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Dominika Stryjewska" />
+            <Text layoutX="14.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Piotr Palczewski" />
+            <Text layoutX="14.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Jan Rygulski" />
+            <Text layoutX="3.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;== dodaj nowy składnik do diety" />
+            <Text layoutX="3.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;== rozpisz swój dzisiejszy plan żywieniowy" />
+            <Text layoutX="4.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;==oblicz swój wskaźnik Bmi" />
+            <AnchorPane layoutX="3.0" layoutY="3.0" prefHeight="390.0" prefWidth="414.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

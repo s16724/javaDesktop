@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="319.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="source.Controller">
+   <children>
+      <Text layoutX="160.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plan Żywieniowy" wrappingWidth="87.521484375" />
+   </children>
+</AnchorPane>
